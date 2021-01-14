@@ -1,5 +1,5 @@
 {
-      "data": [
+ [
         {
           "Age": "10-15",
           "Year": 2011,
@@ -125,7 +125,6 @@
           "Gender": "Woman",
           "PATIENTS": 1,
           "EPISODES": 1
-        },
-        
+        }, 
       ],
 }
