@@ -1,8 +1,4 @@
 {
-  "images": [],
-  "html": [],
-  "json": [
-    {
       "data": [
         {
           "Age": "10-15",
@@ -17744,55 +17740,4 @@
           "EPISODES": 1
         }
       ],
-      "options": {
-        "show_UI": true,
-        "rendererNames": [
-          {
-            "name": "Table",
-            "type": "default"
-          }
-        ],
-        "rendererName": "Table",
-        "aggregators": {
-          "Number Patients": {
-            "action": "sum",
-            "data": [
-              "PATIENTS"
-            ],
-            "format": {
-              "thousandsSep": ".",
-              "decimalSep": ",",
-              "digitsAfterDecimal": 2
-            }
-          },
-          "Number Episodes": {
-            "action": "sum",
-            "data": [
-              "EPISODES"
-            ],
-            "format": {
-              "thousandsSep": ".",
-              "decimalSep": ",",
-              "digitsAfterDecimal": 2
-            }
-          }
-        },
-        "aggregatorName": "Number Patients",
-        "hiddenAttributes": [
-          "PATIENTS",
-          "EPISODES"
-        ],
-        "rows": [
-          "Year"
-        ],
-        "cols": [
-          "Substance"
-        ],
-        "fixedHeaders": true,
-        "hideRowTotal": false,
-        "hideColTotal": false
-      }
-    }
-  ],
-  "htmlForSas1": []
 }
